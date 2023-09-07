@@ -1,0 +1,61 @@
+/* 倒计时 */
+
+.content{
+	width: 611px;
+	height: 500px;
+	color:white;
+	/* 此盒子垂直居中 */
+	position: absolute;
+	top: calc(-7%);
+	left: calc(8%);
+	/* 子元素垂直居中 */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.content_top{
+	letter-spacing: 5px;
+}
+.content_center{
+	letter-spacing: 15px;
+	font-size: 70px;
+	font-weight: bold;
+	
+}
+.content_bottom{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	height: 200px;
+}
+ 
+.content_bottom_day{
+	width:100px;
+	height: 80px;
+	margin-right: 50px;
+	border-radius: 4px;
+}
+ 
+.content_bottom_day_top{
+	font-size: 18px;
+	min-width: 100px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background-color: #ee850c;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+ 
+.content_bottom_day_bottom{
+	font-size: 14px;
+	min-width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: rgb(176, 150, 0);
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}

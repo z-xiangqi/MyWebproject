@@ -1,7 +1,7 @@
 <template>
 
 <div>
-  <img src="@/assets/logo.png" height="32" width="102" class="logo">
+  <img src="@/assets/image/logo.png" height="32" width="102" class="logo">
   <div class="search-box">
     <input type="text" class="input-value" 
       v-model="keyword" 
@@ -131,7 +131,7 @@ export default  {
   .submit{ 
     width: 45px; 
     height: 48px; 
-    background: url('~@/assets/search-btn.png')no-repeat 0 3px; 
+    background: url('~@/assets/image/search-btn.png')no-repeat 0 3px; 
     border: none;
     text-indent: -999px;
     cursor: pointer;

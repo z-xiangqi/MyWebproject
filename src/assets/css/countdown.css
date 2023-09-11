@@ -1,5 +1,6 @@
 /* 倒计时 */
 
+
 .content{
 	width: 611px;
 	height: 500px;
@@ -19,8 +20,16 @@
 }
 .content_center{
 	letter-spacing: 15px;
-	font-size: 70px;
+	font-size: 100px;
+	font-family: zhengda;
 	font-weight: bold;
+	margin-right: 40px;
+		/* letter-spacing: 0.2rem;
+		font-size: 1.5rem; */
+	background-image: -webkit-linear-gradient(left, #147B96, #e68505 25%, #147B96 50%, #e68505 75%, #147B96);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	-webkit-background-size: 200% 100%;
 	
 }
 .content_bottom{
@@ -29,6 +38,7 @@
 	justify-content: space-between;
 	width: 100%;
 	height: 200px;
+	margin-top: -10px;
 }
  
 .content_bottom_day{
@@ -36,17 +46,25 @@
 	height: 80px;
 	margin-right: 50px;
 	border-radius: 4px;
+	
 }
  
 .content_bottom_day_top{
-	font-size: 18px;
+	font-size: 28px;
+	font-family: zhengda;
+	letter-spacing: 5px;
 	min-width: 100px;
 	height: 50px;
 	text-align: center;
 	line-height: 50px;
-	background-color: #ee850c;
 	border-top-left-radius: 4px;
 	border-top-right-radius: 4px;
+	background-image: -webkit-linear-gradient(left, #147B96, #e68505 25%, #147B96 50%, #e68505 75%, #147B96);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	-webkit-background-size: 200% 100%;
+	background-color: #ee850c;
+
 }
  
 .content_bottom_day_bottom{

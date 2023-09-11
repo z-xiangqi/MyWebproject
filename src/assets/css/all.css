@@ -4,4 +4,17 @@ body,
     height: 100%; 
     margin: 0; 
     padding: 0;
+    background-color: #181A2B;
+}
+@font-face {
+	font-family:aimin;
+	src:url('@/assets/font/仓耳爱民行楷.ttf')
+}
+@font-face {
+	font-family:zhengda;
+	src:url('@/assets/font/仓耳正大榜书.ttf');
+}
+@font-face {
+	font-family:zengguofan;
+	src:url('@/assets/font/仓耳曾国藩体.ttf');
 }
